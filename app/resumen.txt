@@ -1,0 +1,35 @@
+index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Atenea De La Cruz Brito, UABC</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Atenea De La Cruz Brito, UABC </h1>
+      <p>Los espacios binacionales entre M&eacute;xico-Estados Unidos y Estados Unidos-Canad&aacute;, se caracterizan por una contig&uuml;idad geogr&aacute;fica y una interacci&oacute;n social que hist&oacute;ricamente ha dado pie al establecimiento de comunidades en los l&iacute;mites territoriales.</p>
+      <p>Este contexto fronterizo de contig&uuml;idad e interacci&oacute;n, permite a los residentes de la regi&oacute;n binacional acceder a bienes y servicios en el pa&iacute;s vecino, entre ellos la vivienda.</p>
+      <p>El objetivo de este estudio es explicar, &iquest;c&oacute;mo influyen la contig&uuml;idad y los flujos fronterizos de las conurbaciones lim&iacute;trofes entre M&eacute;xico, Estados Unidos y Canad&aacute; en sus mercados de vivienda?</p>
+      <script src="script.js"></script>
+  </body>
+</html>
+
+styles.css
+body{
+  padding: 25px;
+  font-family: helvetica;
+}
+.title {
+	color: #5C6AC4;
+	font-family: helvetica;
+}
+
+script.js
+function showTime() {
+	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
+}
+showTime();
+setInterval(function () {
+	showTime();
+}, 1000);
