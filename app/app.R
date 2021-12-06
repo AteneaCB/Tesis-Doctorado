@@ -18,9 +18,9 @@ library(rworldxtra)
 library(RColorBrewer)
 
 #### Directorio ####
-setwd("C:/Users/AteneaHP/Documents/03 TESIS WorkingFiles/Atenea2021")
-usssm <- read.csv("2111usssm.csv", header = TRUE) #Para tabla
-nog <- read.csv("2111nog.csv", header = TRUE) #Para mapa
+setwd("https://github.com/AteneaCB/Tesis-Doctorado/tree/main/app")
+usssm <- read.csv("https://raw.githubusercontent.com/AteneaCB/Tesis-Doctorado/main/app/2111usssm.csv", header = TRUE) #Para tabla
+nog <- read.csv("https://raw.githubusercontent.com/AteneaCB/Tesis-Doctorado/main/app/2111nog.csv", header = TRUE) #Para mapa
 
 ############################ I. UI  ############################
 ui <-   
